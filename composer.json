@@ -1,0 +1,20 @@
+{
+    "name": "swiftly/package",
+    "description": "TODO",
+    "homepage": "https://github.com/SwiftlyPHP/package",
+    "readme": "README.md",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">= 7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Swiftly\\Package\\": "src/"
+        }
+    },
+    "require-dev": {
+        "vimeo/psalm": "^4.12",
+        "phpunit/phpunit": "^9.5"
+    }
+}

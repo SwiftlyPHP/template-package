@@ -1,7 +1,7 @@
 {
-    "name": "swiftly/package",
-    "description": "TODO",
-    "homepage": "https://github.com/SwiftlyPHP/package",
+    "name": "swiftly/template-package",
+    "description": "todo",
+    "homepage": "https://github.com/SwiftlyPHP/template-package",
     "readme": "README.md",
     "type": "library",
     "license": "MIT",
@@ -10,7 +10,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Swiftly\\Package\\": "src/"
+            "Swiftly\\template-package\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Swiftly\\template-package\\Tests\\": "tests/"
         }
     },
     "require-dev": {

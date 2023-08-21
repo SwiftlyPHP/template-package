@@ -6,7 +6,11 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "php": ">= 7.3"
+        "php": "^7.4 || ^8"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^5.15",
+        "phpunit/phpunit": "^9.6"
     },
     "autoload": {
         "psr-4": {
@@ -17,9 +21,5 @@
         "psr-4": {
             "Swiftly\\template-package\\Tests\\": "tests/"
         }
-    },
-    "require-dev": {
-        "vimeo/psalm": "^4.12",
-        "phpunit/phpunit": "^9.5"
     }
 }

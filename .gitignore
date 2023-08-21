@@ -3,4 +3,8 @@
 /composer.lock
 
 # PHPUnit
-/coverage
+/reports
+
+# Mac specific
+.DS_Store
+
